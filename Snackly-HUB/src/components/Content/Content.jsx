@@ -1,9 +1,12 @@
 import c from './Content.module.css'
 
+import React from "react";
+
 const Content = () =>{
     return(
-        <main className={c.main}>
-            Content
+        <main >
+            <p>Добро пожаловать в "Snackly"</p>
+
         </main>
     )
 }

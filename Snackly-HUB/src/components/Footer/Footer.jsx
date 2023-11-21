@@ -1,11 +1,12 @@
-import f from './Footer.module.css'
+import React from 'react';
+import './Footer.module.css'; // Подключаем файл стилей
 
-const Footer =() =>{
+const Footer = () => {
     return (
-        <footer className={f.footer}>
-            Footer
+        <footer>
+            <p> 2023 Ваше название компании</p>
         </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;
