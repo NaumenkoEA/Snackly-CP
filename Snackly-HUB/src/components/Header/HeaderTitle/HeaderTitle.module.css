@@ -1,0 +1,52 @@
+.headerTitle{
+    color: orange;
+    font-size: 50px;
+    font-weight: 400;
+    text-align:  center;
+    position: absolute;
+    left: 0;
+    margin-top:222px ;
+}
+
+.subTitle{
+    font-size: 80px;
+    font-weight: 400;
+    padding-top: 4px;
+}
+
+.supTitle{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+.supTitle:after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 174px;
+    left: 90px;
+}
+
+.supTitle:before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 174px;
+    left: 330px;
+}
+
+.btn{
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    padding: 14px 27px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+
+}

@@ -1,6 +1,7 @@
 import h from "./Header.module.css"
 import Navbar from "../Navbar/Navbar.jsx";
 import logo from "../Images/LOGO.png";
+import HeaderTitle from "./HeaderTitle/HeaderTitle.jsx";
 
 
 const Header = () => {
@@ -12,6 +13,9 @@ const Header = () => {
                         <img src={logo} alt=""/>
                     </div>
                     <Navbar/>
+                </div>
+                <div className={h.headerDown}>
+                    <HeaderTitle/>
                 </div>
             </div>
         </div>

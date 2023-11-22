@@ -1,5 +1,4 @@
 
-
 .header {
     height: 100vh;
     background-image: url("../Images/bg.jpg");
@@ -7,19 +6,28 @@
     background-size: cover;
 }
 
-.headerLine{
+.headerLine {
     padding-top: 50px;
     display: flex;
     align-items: center;
-justify-content: space-around;
+    justify-content: space-around;
 }
 
-.headerLogo{
+.headerLogo {
     height: 60px;
     width: 60px;
 }
-.container{
+
+.container {
     margin: 0 166px;
+}
+
+.headerDown{
+    position: relative;
+    width: 556px;
+    height: 179px;
+
+
 }
 
 
