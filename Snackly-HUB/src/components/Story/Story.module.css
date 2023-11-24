@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+
+}
+
+.storyHolder{
+    display: flex;
+    justify-content: center;
+
+}
+.info {
+    margin: 0 155px;
+
+}
+
+.title {
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-bottom: 21px;
+
+}
+
+.text {
+    width: 444px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+    text-align: center;
+    padding:10px;
+}
+
+.storyNumbers {
+    display: flex;
+    justify-content: center;
+    width: 444px;
+    margin-top: 40px;
+
+}
+
+.numbers {
+    margin-right: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    color: #BC9060;
+}
+
+.numbers:last-child{
+    margin-right: 0;
+}
+
+.numbers span{
+    display: block;
+    font-size: 20px;
+    color: black;
+}
+
+.image {
+    position: relative;
+    height: 500px;
+    width: 350px;
+    margin-right: 210px;
+    margin-left: 40px;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 0;
+    top: 9px;
+    left: 190px;
+}
+
+.img3 {
+    position: absolute;
+    z-index: 1;
+    top: 130px;
+    left: 10px;
+}

@@ -6,11 +6,10 @@ import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
 
-
     return (<BrowserRouter>
             <div className='wrapper'>
                 <Header />
-                {/*<Content />*/}
+                <Content />
                 <Footer />
             </div>
 

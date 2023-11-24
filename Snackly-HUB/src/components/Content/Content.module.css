@@ -5,7 +5,6 @@ main {
     align-items: center; /* Выравниваем по центру по вертикали */
     justify-content: center; /* Выравниваем по центру по горизонтали */
     padding: 20px;
-    margin: 100px auto 0 auto;
     border: none;
 
     background-size: cover;
