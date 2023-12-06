@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import n from './Navbar.module.css';
 
-
 const NavBar = () => {
     return (
         <div className={n.nav}>
@@ -31,9 +30,22 @@ const NavBar = () => {
 
             <div className={n.btn}>
                 <a className={n.button} href="#">Заказ столика</a>
-
             </div>
 
+            <div className={n.auth}>
+                <div className={n.login}>
+                    <Link to="/login" className={n.authBtn}>
+                        Войти
+                    </Link>
+                </div>
+
+                <div className={n.registration}>
+                    <Link to="/regis" className={n.authBtn}>
+                        Зарегистрироваться
+                    </Link>
+                </div>
+
+            </div>
         </div>
     );
 };

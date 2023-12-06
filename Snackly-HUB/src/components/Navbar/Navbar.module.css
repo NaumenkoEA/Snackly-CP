@@ -3,7 +3,7 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    }
+}
 
 
 .navItem {
@@ -37,12 +37,13 @@ a:hover {
 
 .phone {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     margin: 0 30px;
 
 }
 
-.number{}
+.number {
+}
 
 .num {
     font-weight: 700;
@@ -80,3 +81,31 @@ a:hover {
     padding-bottom: 5px;
 
 }
+
+.auth {
+    display: flex;
+}
+
+.authBtn{
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    padding: 14px 19px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.authBtn:hover {
+    color: bisque;
+    border-bottom: 2px solid bisque;
+}
+
+.login{
+    margin-left: 10px;
+}
+
+
+.registration{
+    margin: 0 10px;
+}
+
