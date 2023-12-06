@@ -1,8 +1,6 @@
 import h from "./Header.module.css"
 import Navbar from "../Navbar/Navbar.jsx";
-import HeaderTitle from "./HeaderTitle/HeaderTitle.jsx";
-
-
+import HeaderText from "./HeaderText/HeaderText.jsx";
 
 const Header = () => {
     return (
@@ -15,7 +13,7 @@ const Header = () => {
                     <Navbar/>
                 </div>
                 <div className={h.headerDown}>
-                    <HeaderTitle/>
+                    <HeaderText/>
                 </div>
 
             </div>

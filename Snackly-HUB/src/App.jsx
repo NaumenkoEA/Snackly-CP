@@ -1,18 +1,23 @@
 import './App.css'
-import Header from "./components/Header/Header.jsx";
-import Content from "./components/Content/Content.jsx";
-import {BrowserRouter} from "react-router-dom";
-import Footer from "./components/Footer/Footer.jsx";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Menu from "./components/Menu/Menu.jsx";
+import Story from "./components/Story/Story.jsx";
+import Home from "./components/Home/Home.jsx";
+import LoginForm from "./components/Authorization/LoginForm/LoginForm.jsx";
+
+import RegistrationForm from "./components/Authorization/RegistForm/RegistrationForm.jsx";
 
 function App() {
-
     return (<BrowserRouter>
             <div className='wrapper'>
-                <Header />
-                <Content />
-                <Footer />
+                <Routes>
+                    <Route path='/' element={<Home/>}/>
+                    <Route path='/story' element={<Story/>}/>
+                    <Route path='/menu' element={<Menu/>}/>
+                    <Route path='/login' element={<LoginForm/>}/>
+                    <Route path='/regis' element={<RegistrationForm/>}/>
+                </Routes>
             </div>
-
         </BrowserRouter>
     )
 }

@@ -1,7 +1,7 @@
-import ht from './HeaderTitle.module.css'
+import ht from './HeaderText.module.css'
 import {NavLink} from "react-router-dom";
 
-const HeaderTitle = () => {
+const HeaderText = () => {
     return (
         <div className={ht.headerTitle}>
             Добро пожаловать в
@@ -11,7 +11,6 @@ const HeaderTitle = () => {
             <div className={ht.supTitle}>
                 ДОМ ЛУЧШЕЙ ЕДЫ
             </div>
-
             <div>
                 <NavLink to={'/menu'} className={ht.btn}>Показать Меню</NavLink>
             </div>
@@ -19,4 +18,4 @@ const HeaderTitle = () => {
     )
 }
 
-export default HeaderTitle
+export default HeaderText

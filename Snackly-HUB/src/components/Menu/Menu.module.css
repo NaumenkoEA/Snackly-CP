@@ -1,4 +1,38 @@
 
-.dish{
-    grid-area: d;
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+
+}
+
+.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+.menuList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menuItem {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    font-weight: bold;
+    color: #e44d26; /* Цвет может быть изменен под ваш стиль */
 }

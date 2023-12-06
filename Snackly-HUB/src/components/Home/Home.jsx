@@ -1,7 +1,13 @@
+import Header from "../Header/Header.jsx";
+import Content from "../Content/Content.jsx";
+import Footer from "../Footer/Footer.jsx";
+
 const Home =() =>{
     return(
         <div>
-            Home
+            <Header/>
+            <Content />
+            <Footer />
         </div>
     )
 }

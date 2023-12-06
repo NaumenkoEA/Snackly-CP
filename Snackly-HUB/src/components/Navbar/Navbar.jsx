@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import n from './Navbar.module.css';
+import cart from '../Images/cart.png'
+import phone from "../Images/phone.png"
 
 const NavBar = () => {
     return (
@@ -13,13 +15,13 @@ const NavBar = () => {
             </div>
 
             <div className={n.cart}>
-                <Link to="/cart"><img className={n.cartImg} src='/cart.png' alt=""/></Link>
+                <Link to="/cart"><img className={n.cartImg} src={cart} alt=""/></Link>
             </div>
 
             <div className={n.phone}>
                 <div className={n.phoneHolder}>
                     <div className={n.phoneImg}>
-                        <img src='/phone.png' alt=""/>
+                        <img src={phone} alt=""/>
                     </div>
                     <div className={n.number}><a href="#" className={n.num}>+375(29)-777-00-77</a></div>
                 </div>
@@ -30,22 +32,9 @@ const NavBar = () => {
 
             <div className={n.btn}>
                 <a className={n.button} href="#">Заказ столика</a>
-            </div>
-
-            <div className={n.auth}>
-                <div className={n.login}>
-                    <Link to="/login" className={n.authBtn}>
-                        Войти
-                    </Link>
-                </div>
-
-                <div className={n.registration}>
-                    <Link to="/regis" className={n.authBtn}>
-                        Зарегистрироваться
-                    </Link>
-                </div>
 
             </div>
+
         </div>
     );
 };
