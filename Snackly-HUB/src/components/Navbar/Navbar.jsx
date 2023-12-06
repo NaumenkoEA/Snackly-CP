@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import n from './Navbar.module.css';
-import cart from '../Images/cart.png'
-import phone from "../Images/phone.png"
+import cart from '/cart.png'
+import phone from "/phone.png"
 
 const NavBar = () => {
     return (
@@ -35,8 +35,21 @@ const NavBar = () => {
 
             </div>
 
+            <div className={n.auth}>
+                <div className={n.login}>
+                    <Link to="/login" className={n.authBtn}>
+                        Войти
+                    </Link>
+                </div>
+
+                <div className={n.registration}>
+                    <Link to="/regis" className={n.authBtn}>
+                        Зарегистрироваться
+                    </Link>
+                </div>
+            </div>
         </div>
-    );
-};
+    )
+}
 
 export default NavBar;
